@@ -1,0 +1,15 @@
+# AI sensitive / generated
+ai/*.pem
+ai/data_record/
+*.sqlite3
+
+# Backend sensitive files
+backend/*.pem
+backend/db.sqlite3
+
+# Python
+__pycache__/
+*.pyc
+
+# Env
+.env

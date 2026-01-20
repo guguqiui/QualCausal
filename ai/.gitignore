@@ -1,0 +1,5 @@
+*.DS_Store
+*.pyc
+__pycache__
+automaticExtractionBackend/all_views/__pycache__/*.pyc
+db.sqlite3
