@@ -1,0 +1,46 @@
+version: "3.9"
+
+services:
+  visualization:
+    build: .
+    restart: always
+    env_file: .env
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./media:/app/media
+      - ./static:/app/static
+      - ./staticfiles:/app/staticfiles
+    depends_on:
+      - postgres
+      - redis
+
+  postgres:
+    image: postgres:13
+    restart: always
+    environment:
+      POSTGRES_DB: viz_db
+      POSTGRES_USER: qpn
+      POSTGRES_PASSWORD: 123
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7
+    restart: always
+    container_name: redis
+
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    depends_on:
+      - visualization
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./staticfiles:/app/staticfiles  # 和 Django 的 STATIC_ROOT 一致
+#      - ./static:/app/staticfiles
+      - ./media:/app/media
+
+volumes:
+  pgdata:
