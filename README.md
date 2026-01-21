@@ -1,10 +1,10 @@
-# [CHI 2026] Designing Computational Tools for Exploring Causal Relationships in Qualitative Data
+# [CHI 2026] QualCausal: Designing Computational Tools for Exploring Causal Relationships in Qualitative Data
 
 [[Read the Paper]](https://doi.org/10.1145/3772318.3791953) [Han Meng](https://sites.google.com/view/han-meng/home), Qiuyuan Lyu, Peinuan Qin, Yitian Yang, Renwen Zhang, Wen-Chieh Lin, Yi-Chieh Lee
 
 <div align="center"> <img src="teaser.jpg" width="1000" alt="teaser"> </div>
 
-## *What is this tool?*
+## *What is QualCausal?*
 
 This repository contains the source code and implementation for our CHI 2026 paper. We introduce a computational tool designed to assist researchers in exploring and identifying causal relationships within qualitative data. By integrating NLP pipelines and interactive visualizations, this tool aims to bridge the gap between qualitative analysis and causal inference.
 
