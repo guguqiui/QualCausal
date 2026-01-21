@@ -2,7 +2,7 @@
 
 [[Read the Paper]](https://doi.org/10.1145/3772318.3791953) [Han Meng](https://sites.google.com/view/han-meng/home), Qiuyuan Lyu, Peinuan Qin, Yitian Yang, Renwen Zhang, Wen-Chieh Lin, Yi-Chieh Lee
 
-<div align="center"> <img src="teaser.png" width="500" alt="teaser"> </div>
+<div align="center"> <img src="teaser.jpg" width="1000" alt="teaser"> </div>
 
 ## *What is this tool?*
 
