@@ -14,7 +14,8 @@ This project is licensed for **non-commercial use only**.
 
 The source code, data, and models provided in this repository are intended for academic and educational purposes. Commercial use, including but not limited to using this software for profit-generating activities or integrating it into commercial products, is strictly prohibited without prior written permission from the authors.
 
-### Repository Structure
+
+## *How to use QualCausal?*
 
 The repository is organized into three main components:
 
@@ -22,10 +23,11 @@ The repository is organized into three main components:
 QualCausal/
 ├── frontend/   # Visualization interface
 ├── backend/    # Backend service and data management
-├── ai/         # AI-based entity extraction pipeline
+├── ai/         # causal network construction pipeline
 ├── .gitignore
 └── README.md
 ```
+
 #### Frontend
 
 The frontend/ directory contains the visualization interface used to explore qualitative causal structures.
@@ -51,7 +53,7 @@ Sensitive files (e.g., credentials, databases) have been removed from this artif
 
 #### AI Module
 
-The ai/ directory contains the AI-based entity extraction pipeline used in the QualCausal system.
+The ai/ directory contains the causal network construction pipeline used in the QualCausal system.
 	•	Implements automatic entity extraction and processing workflows
 	•	Includes model inference logic and pipeline code
 	•	Does not include training data or model checkpoints
