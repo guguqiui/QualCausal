@@ -23,7 +23,7 @@ The repository is organized into three main components:
 QualCausal/
 ├── frontend/   # Visualization interface
 ├── backend/    # Backend service and data management
-├── ai/         # causal network construction pipeline
+├── ai/         # Causal network construction pipeline
 ├── .gitignore
 └── README.md
 ```
