@@ -69,7 +69,7 @@ This repository provides an artifact-level implementation of the QualCausal syst
 
 This design follows common practices for sharing research artifacts while respecting data, security, and licensing constraints.
 
-## *How do I cite this work?*
+## *How do I cite QualCausal?*
 
 ```bibtex
 @inproceedings{meng2026designing,
